@@ -29,7 +29,7 @@ document.querySelector('#search').addEventListener('submit', async(event) => {
         })
     }else {
         document.querySelector("#weather").classList.remove('show');
-        showAlert('Não foi possível localizar infelizmente...<br> <img src= "imagens/undraw_to-the-moon_w1wa.svg" />')
+        showAlert('infelizmente não foi possível localizar...<br> <img src= "imagens/undraw_to-the-moon_w1wa.svg" />')
     }
 });
 
